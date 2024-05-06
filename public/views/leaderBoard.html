@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="../leaderboard.css" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="../nav-bar.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="../assets/BCS LOGO.png">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <div class="logo">
+            <img src="../assets/BCS LOGO.png" alt="logo" class="logo">
+        </div>
+        <nav>
+            <div class="nav-mobile">
+                <a href="#" id="nav-toggle">
+                    <span></span>
+                </a>
+            </div>
+            <ul class="nav-list">
+                <li><a href="/">Home</a></li>
+                <li><a href="/crypt">Cryptic</a></li>
+                <li><a href="/leaderboard">Leaderboard</a></li>
+                <li><a href="/members">Team</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+                <li><a href="/">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<div class="bg"></div>
+    <div class="page">
+        <h1>LEADERBOARD</h1>
+        <div class="graph">
+            <canvas id="myChart"></canvas>
+        </div>
+        <ul class="columns">
+            <li class="c-items" id="ranks">RANK</li>
+            <li class="c-items" id="teams'-names">TEAMS NAME</li>
+            <li class="c-items" id="scores">SCORE</li>
+        </ul>
+        <hr id="c-hr">
+        <div id="leaderboard">
+        </div>
+    </div>
+    <script defer src="../scripts/leaderboard.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</body>
+
+</html>

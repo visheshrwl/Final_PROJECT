@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Pixelify+Sans:regular,500,600,700);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Equinox;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    background: url("./assets/lines2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    user-select: none;
+}
+.page{
+    height: 100%;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.error{
+    font-size: 18vw;
+    font-family: Pixelify Sans;
+    background: -webkit-linear-gradient(#1151c7, #f442f4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.message{
+    width: 70%;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: gainsboro;
+    text-align: center;
+    font-family: Pixelify Sans;
+}
+@media (max-width:600px){
+    .message{
+        font-size: 8px;
+    }
+}
+@media (max-width:450px){
+    .message{
+        font-size: 7px;
+    }
+}
